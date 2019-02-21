@@ -13,7 +13,10 @@
         'ziiirothecomet.com',
       ];
 
-      window.location = urls[urls[Math.floor(Math.random() * urls.length)]];
+      const newUrl = urls[Math.floor(Math.random() * urls.length)];
+      console.log(newUrl)
+
+      window.location = newUrl;
     });
     </script>
   </body>
