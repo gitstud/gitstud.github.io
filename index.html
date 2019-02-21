@@ -6,14 +6,14 @@
   </head>
   <body>
     <script>
-    document.on('load', function() {
+    window.addEventListener('load', function() {
       var urls = [
         'www.google.com',
         'maxnelson.us',
         'ziiirothecomet.com',
       ];
 
-      window.location.replace(urls[myArray[Math.floor(Math.random() * urls.length)]])
+      window.location.replace(urls[myArray[Math.floor(Math.random() * urls.length)]]);
     });
     </script>
   </body>
